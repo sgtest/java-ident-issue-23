@@ -1,0 +1,16 @@
+apply plugin: 'eclipse'
+apply plugin: 'application'
+
+version = '1.0'
+group = 'foobar'
+
+mainClassName = "Main"
+
+sourceCompatibility = '1.8'
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+}
